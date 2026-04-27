@@ -2,7 +2,7 @@
 
 Galeria de imagens do espaço desenvolvida com **Django**, como projeto prático de aprendizado de desenvolvimento back-end. O front-end foi fornecido pronto; o foco do desenvolvimento foi na estruturação do projeto Django, configuração de rotas, views e renderização dinâmica de templates.
 
-![Preview do projeto](<img width="1456" height="828" alt="image" src="https://github.com/user-attachments/assets/25f8a91b-06bb-4de5-bf7e-6f5f6bca97ba" />)
+![Preview do projeto](https://i.imgur.com/RgEy3OL.png)
 
 
 ---
