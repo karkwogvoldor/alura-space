@@ -4,7 +4,7 @@ from .models import Fotografia
 class ListandoFotografias(admin.ModelAdmin):
     list_display = ('id', 'nome', 'legenda', 'publicada')
     list_display_links = ('id','nome')
-    search_fields = ('id', 'nome', 'legenda','publicada')
+    search_fields = ('id', 'nome', 'legenda')
     list_filter = ('categoria', 'publicada')
     list_editable = ('publicada',)
     list_per_page = 10
