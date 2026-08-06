@@ -104,9 +104,11 @@ table {
 .busca__input {
     align-items: center;
     background-color: transparent;
-    border: none;
+    border: 2px;
+    color:white;
     font-size: 1rem;
     height: 24px;
+    margin-bottom: 5px;
     padding: 10px;
     width: 500px;
 }
@@ -395,4 +397,10 @@ table {
     color: #084298;
     background-color: #cfe2ff;
     border-color: #b6d4fe;
+}
+
+.alert-error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
