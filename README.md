@@ -156,11 +156,11 @@ Um dos conceitos mais importantes implementados foi a **herança de templates** 
     <link rel="stylesheet" href="{% static 'styles/style.css' %}">
 </head>
 <body>
-    {% include 'galeria/partials/_menu.html' %}
+    {% include 'partials/_menu.html' %}
 
     {% block content %}{% endblock %}  <!-- as páginas filhas preenchem aqui -->
 
-    {% include 'galeria/partials/_footer.html' %}
+    {% include 'partials/_footer.html' %}
 </body>
 </html>
 ```
@@ -185,7 +185,7 @@ Esse padrão significa que menu, footer e estrutura HTML geral são escritos **u
 O menu lateral e o rodapé foram separados em arquivos parciais com `{% include %}`:
 
 ```
-templates/galeria/partials/
+templates/partials/
     ├── _menu.html    → header + barra de busca + menu lateral
     └── _footer.html  → rodapé com links de redes sociais
 ```
@@ -193,8 +193,8 @@ templates/galeria/partials/
 Incluídos no `base.html` com:
 
 ```html
-{% include 'galeria/partials/_menu.html' %}
-{% include 'galeria/partials/_footer.html' %}
+{% include 'partials/_menu.html' %}
+{% include 'partials/_footer.html' %}
 ```
 
 ---
